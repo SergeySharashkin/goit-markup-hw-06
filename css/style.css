@@ -239,7 +239,7 @@ img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   z-index: 2;
-  transition: opacity 2500ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 .backdrop.is-hidden {
@@ -719,7 +719,7 @@ img {
   background-color: #2196f3e5;
 
   transform: translate(0, 100%);
-  transition: transform 250ms ease;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay-work > p {
