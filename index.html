@@ -78,7 +78,7 @@
                   required
                 />
                 <span class="modal-icon">
-                  <svg class="icon" width=32 hight=32>
+                  <svg class="icon" width="32" hight="32">
                     <use href="./images/new-icon.svg#icon-person"></use>
                   </svg>
                 </span>
@@ -88,15 +88,15 @@
             <div class="modal-fild">
               <div class="modal-cont">
                 <input
-                class="modal-input"
-                type="tel"
-                name="tephone"
-                id="tel"
-                placeholder=" "
-                required
-              />
+                  class="modal-input"
+                  type="tel"
+                  name="tephone"
+                  id="tel"
+                  placeholder=" "
+                  required
+                />
                 <span class="modal-icon">
-                  <svg class="icon" width=18 hight=18>
+                  <svg class="icon" width="18" hight="18">
                     <use href="./images/new-icon.svg#icon-phone"></use>
                   </svg>
                 </span>
@@ -105,27 +105,38 @@
             </div>
             <div class="modal-fild">
               <div class="modal-cont">
-              <input class="modal-input" 
-              type="email" 
-              name="mail" 
-              id="mail" 
-              placeholder=" "
-              required/>
-              <span class="modal-icon">
-                <svg class="icon" width=18 hight=18>
-                <use href="./images/new-icon.svg#icon-email"></use>
-              </svg>
-              </span>
-            </div>
+                <input
+                  class="modal-input"
+                  type="email"
+                  name="mail"
+                  id="mail"
+                  placeholder=" "
+                  required
+                />
+                <span class="modal-icon">
+                  <svg class="icon" width="18" hight="18">
+                    <use href="./images/new-icon.svg#icon-email"></use>
+                  </svg>
+                </span>
+              </div>
               <label for="mail">Почта</label>
             </div>
             <div class="modal-comment">
               <label for="comment">Комментарий</label>
-              <textarea class="modal-textarea" name="comment" id="comment" rows="10"></textarea>
+              <textarea
+                class="modal-textarea"
+                name="comment"
+                id="comment"
+                rows="10"
+              ></textarea>
             </div>
             <div class="modal-check">
-              <label for="contsend">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a> </label>
-              <input type="checkbox" name="contsend" id="contsend" />
+              <label class="check-label">
+                <input class="checkbox" type="checkbox" name="contsend" />
+                <span class="checkbox-icon"><svg width=16 hight=15><use href="./images/new-icon.svg#icon-check"></use></svg></span>
+                Соглашаюсь с рассылкой и принимаю 
+                <a class="link-modal" href="">Условия договора</a>
+              </label>
             </div>
             <button class="modal-submit" type="submit">Отправить</button>
           </form>
